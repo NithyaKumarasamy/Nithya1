@@ -6,7 +6,7 @@ printf("enter the value of two number:");
 scanf("%d",&m,&n);
 for(m=m;m<=n;m++)
 {
-if(m%2==0)
+if(m%2==1)
 {
 printf("%d",m);
 }
