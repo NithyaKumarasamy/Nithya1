@@ -8,7 +8,7 @@ for(m=m;m<=n;i++)
 {
 if(m%2==0)
 {
-printf("%d",m);
+printf("%d",/tm);
 }
 }
 }
