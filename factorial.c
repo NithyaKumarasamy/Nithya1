@@ -11,7 +11,7 @@ printf("error we not find factorial for negative number");
 }
 else
 {
-for(i=1;i<=n;i++)
+for(i=1;i<=n;++i)
 {
 factorial=*i;
 }
