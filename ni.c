@@ -12,7 +12,7 @@ printf("enter the number of elements");
   largest=array[0];
   for(i=1;i<size;i++)
   {
-    if(largest<
+    if(largest<arra[i])
   {
   largest=array[i];
   }
