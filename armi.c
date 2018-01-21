@@ -22,7 +22,7 @@ temp2=temp/10;
 }
 if(result==i)
 {
-printf("yes");
+printf("%d",i);
 }
 n=0;
 result=0;
