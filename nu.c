@@ -3,14 +3,22 @@ void main()
 {
 
 printf("enter the number of sring u want");
-scanf("%d",&n);
-printf("enter the %d elemens",n);
-for(i=0;i<n;i++)
+scanf("%s",&s);
+for(i=0;s[i]="\0";i++)
 {
-scanf("%d",&a[i]);
+  flag=0;
+if(s[i]=='0'||s[i]=='1'||s[i]=='2'||s[i]=='3'||s[i]=='4'||s[i]=='5'||s[i]=='6'||s[i]=='7'||s[i]=='8'||s[i]=='9')
+{
+  flag=flag+1;
 }
-for(i=0;i<n;i++)
-{
+}
+  if(flag==0)
+  {
+    printf("the given number not number");
+  
+  
+
+
 
 
 
