@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-
+char s[10],i,flag=0;
 printf("enter the number of sring u want");
 scanf("%s",&s);
 for(i=0;s[i]="\0";i++)
