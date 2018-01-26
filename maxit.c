@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int i, n, float arr[100];
-    printf("Enter total number of elements(1 to 100): ");
-    scanf("%d", &n);
+    int i, n,arr[100];
+    printf("Enter total number of elements: ");
+    scanf("%d", &10);
     printf("\n");
-    for(i = 0; i < n; ++i)
+    for(i = 1; i <=10; ++i)
     {
        printf("Enter Number %d: ", i+1);
        scanf("%d", &arr[i]);
