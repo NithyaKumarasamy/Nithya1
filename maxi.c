@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main() 
 {
-  int n,i,a[10],max=0;
+  int s,i,a[10],max=0;
   printf("enter the number of elements u want\n");
-  scanf("%d",&n);
-  for(i=0;i<n;i++)
+  scanf("%d",&s);
+  for(i=0;i<s;i++)
   {
     scanf("%d",&a[i]);
   }
   max=a[0];
-  for(i=1;i<n;i++)
+  for(i=1;i<s;i++)
   {
     if(max<a[i])
     {
