@@ -7,7 +7,7 @@ int main()
     scanf("%d",&a);
     if(a%7==0)
     {
-        printf("the number is multiples of 7");
+        printf("yes");
     }
     return 0;
 }
